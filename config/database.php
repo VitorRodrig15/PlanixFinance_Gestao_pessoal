@@ -21,7 +21,7 @@ try {
 }
 ?>
 
-<!-- no sql vai precisar criar estas tables, caso o banco de dados online cair, precisa criar no local para testar, usando o xampp 
+<!-- no sql vai precisar criar estas tables, precisa criar no local para testar, usando o xampp 
  e criar as mesmas tabelas, usando o mesmo nome do banco de dados, e depois importar os dados do banco online para o local,
 usando o phpmyadmin, exportando o banco online e importando no local.
 
