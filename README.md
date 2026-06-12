@@ -92,7 +92,7 @@ O **PlanixFinance** foi desenvolvido justamente para ser essa ferramenta de apoi
 - Cálculo de saldo anterior, entradas, saídas e saldo total
 - Painel de inteligência com dados do mês atual
 
-## � Páginas do Projeto
+## Páginas do Projeto
 
 ### 1. **Página Inicial (index.php)**
 A página principal após login que funciona como dashboard financeiro. Apresenta:
