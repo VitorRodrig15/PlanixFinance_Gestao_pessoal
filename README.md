@@ -151,6 +151,7 @@ Página de educação financeira com:
 - `objetivos`
 
 > O arquivo `config/database.php` já usa `localhost`, `root` e senha vazia por padrão. Ajuste se estiver usando outro usuário.
+> as tables estão como comentarios dentro do arquivo database.php, necessario criar exatamente como esta para não atrapalhar o funcionamento do site.
 
 ## ▶️ Como executar
 
