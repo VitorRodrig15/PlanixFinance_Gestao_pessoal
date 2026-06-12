@@ -5,6 +5,23 @@
 [![Language](https://img.shields.io/github/languages/top/VitorRodrig15/PlanixFinance_Gestao_pessoal)](https://github.com/VitorRodrig15/PlanixFinance_Gestao_pessoal)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
+## 👋 Bem-vindo ao PlanixFinance!
+
+Seja muito bem-vindo(a) ao **PlanixFinance**! Este projeto nasceu do desejo de transformar a relação que as pessoas têm com o próprio dinheiro, unindo tecnologia, praticidade e conhecimento.
+
+### 💡 Por que a Educação e a Gestão Financeira importam?
+
+Em uma sociedade cada vez mais dinâmica e cheia de estímulos ao consumo, a falta de orientação financeira muitas vezes se traduz em estresse, endividamento e na perda de oportunidades para o futuro. 
+
+A **educação financeira** vai muito além de apenas "saber economizar". Ela representa:
+*   **Autonomia e Liberdade:** Capacidade de tomar decisões conscientes e planejar o amanhã sem o peso das dívidas.
+*   **Segurança Social:** Uma sociedade financeiramente educada é mais estável, resiliente a crises e economicamente ativa.
+*   **Realização de Sonhos:** Transformar metas abstratas (como uma viagem, um curso ou a casa própria) em objetivos reais através de planejamento e acompanhamento visual.
+
+O **PlanixFinance** foi desenvolvido justamente para ser essa ferramenta de apoio. Mais do que registrar números, ele foi projetado para gerar *insights*, criar hábitos saudáveis e oferecer um espaço de aprendizado contínuo (através da nossa **Página de Estudos**), provando que o controle financeiro pode ser simples, intuitivo e transformador.
+
+---
+
 ## 🚀 Overview
 
 **PlanixFinance** é um painel de gestão financeira pessoal com foco em controle local via XAMPP. Ele combina PHP, MySQL, JavaScript e uma interface moderna para ajudar a visualizar gastos, metas e parcelamentos de forma simples.
