@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="../src/assets/logo_icon.png">
+    <title>Planix Finance - Estudos</title>
+  </head>
+  <body class="estudos-page">
+    <header>
+      <h1 id="logo">Planix<span>Finance</span></h1>
+      <p id="subtitle"><br>Estudos de gestão Financeira e Planejamento Estratégico
+        <br>Explore, aprenda e transforme sua relação com o dinheiro!</br>
+      </p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Aprenda Gestão Financeira 🌟</h2>
+        <p>
+          Ter uma gestão financeira sólida é a base para alcançar seus sonhos e viver com mais segurança. Organizar
+          receitas, controlar despesas e planejar metas ajuda a reduzir dívidas, aumentar a economia e tomar decisões
+          mais inteligentes com seu dinheiro.
+        </p>
+        <p>
+          A gestão financeira é uma habilidade que pode ser aprendida e aprimorada ao longo do tempo. Com as ferramentas
+          e conhecimentos certos, você pode transformar sua relação com o dinheiro e construir um futuro financeiro mais estável
+          e próspero.
+        </p>
+        <p>
+          Este espaço é seu ponto de partida para vídeos, textos e dicas práticas. Estude no seu ritmo, descubra novos hábitos
+          e avance um passo por vez rumo a uma vida financeira mais tranquila. ✨
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Por que ter uma gestão financeira? ✅</h2>
+        <ul>
+          <li>✅ Previne problemas financeiros antes que eles comecem.</li>
+          <li>💰 Permite economizar com mais consciência.</li>
+          <li>📊 Ajuda a controlar gastos e evitar desperdícios.</li>
+          <li>🎯 Facilita o planejamento de metas de curto, médio e longo prazo.</li>
+          <li>🛡️ Dá mais tranquilidade em situações inesperadas.</li>
+          <li>💳 Melhora o uso do crédito e reduz o risco de endividamento.</li>
+          <li>🌱 Contribui para uma vida financeira mais equilibrada e sustentável.</li>
+        </ul>
+      </section>
+
+      <section class="card recursos">
+        <h2>Dicas para sua Gestão Financeira 💡</h2>
+        <div class="recurso-card">
+          <h3><i class="fa-solid fa-lightbulb"></i> Dicas práticas e rápidas</h3>
+          <p>Passos simples para organizar seu dinheiro, reduzir o risco de dívidas e criar hábitos financeiros mais fortes.</p>
+          <button class="btn-resource" onclick="openDicasModal()">Ver todas as dicas práticas</button>
+        </div>
+      </section>
+
+      <section class="card recursos">
+        <h2>Vídeos 🎬</h2>
+        <p>Vídeos sobre educação financeira e práticas de gestão de recursos, organizados em uma única seção limpa.</p>
+        <div class="video-list">
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/V7z5bC4GOQI/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Educação financeira e primeiros passos</div><div><button class="btn-resource" onclick="openVideoModal('V7z5bC4GOQI','Educação financeira e primeiros passos')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/ji_AqYAtIi8/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Organização financeira pessoal</div><div><button class="btn-resource" onclick="openVideoModal('ji_AqYAtIi8','Organização financeira pessoal')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/UmoQg6K4jyE/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Controle de gastos no dia a dia</div><div><button class="btn-resource" onclick="openVideoModal('UmoQg6K4jyE','Controle de gastos no dia a dia')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/AfMGeMZmyUU/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Planejamento financeiro familiar</div><div><button class="btn-resource" onclick="openVideoModal('AfMGeMZmyUU','Planejamento financeiro familiar')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/W2N_TqJzFns/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Como evitar dívidas</div><div><button class="btn-resource" onclick="openVideoModal('W2N_TqJzFns','Como evitar dívidas')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/egtTW_zvqJM/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Reserva de emergência</div><div><button class="btn-resource" onclick="openVideoModal('egtTW_zvqJM','Reserva de emergência')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/GtR7O0vApK4/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Consumo consciente</div><div><button class="btn-resource" onclick="openVideoModal('GtR7O0vApK4','Consumo consciente')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/Lt_4QDjNDxc/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Metas financeiras</div><div><button class="btn-resource" onclick="openVideoModal('Lt_4QDjNDxc','Metas financeiras')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/qBgK1tRAPzA/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Economia e hábitos financeiros</div><div><button class="btn-resource" onclick="openVideoModal('qBgK1tRAPzA','Economia e hábitos financeiros')">Ver</button></div></div>
+          </div>
+          <div class="video-item">
+            <div class="video-thumb" style="background-image:url('https://img.youtube.com/vi/DvsLXKSwNuE/hqdefault.jpg')"><div class="video-play"><i class="fa-solid fa-play"></i></div></div>
+            <div class="video-meta"><div class="video-title">Finanças para o futuro</div><div><button class="btn-resource" onclick="openVideoModal('DvsLXKSwNuE','Finanças para o futuro')">Ver</button></div></div>
+          </div>
+        </div>
+      </section>
+
+        <section class="card recursos-pdfs">
+          <h2>Textos e Artigos 📄</h2>
+          <p>Textos e artigos para aprendizagem sobre gestão financeira. Estudos selecionados sobre planejamento financeiro, controle de gastos, comportamento de consumo e educação financeira.</p>
+          <p style="margin-top:0.8rem;">Os artigos completos estão disponíveis na lista abaixo, prontos para leitura e download.</p>
+          <div class="pdf-list" style="margin-top:1rem;">
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">1. Educa&ccedil;&atilde;o financeira desde cedo <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/1_A_EDUCACAO_FINANCEIRA_NA_FORMACAO_DOS_ESTUDANTES_.pdf','1. Educa&ccedil;&atilde;o financeira desde cedo')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">2. Comportamento financeiro e tomada de decis&atilde;o <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/2_Educa%C3%A7%C3%A3o%20Financeira%20Escolar.pdf','2. Comportamento financeiro e tomada de decis&atilde;o')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">3. Gest&atilde;o financeira familiar e organiza&ccedil;&atilde;o de recursos <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/3_EDUCACAO+FINANCEIRA.pdf','3. Gest&atilde;o financeira familiar e organiza&ccedil;&atilde;o de recursos')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">4. Planejamento financeiro para jovens <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/4_Texto do Artigo-9868-1-10-20241120.pdf','4. Planejamento financeiro para jovens')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">5. Estrat&eacute;gias de alfabetiza&ccedil;&atilde;o financeira <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/5_EDUCACAO_FINANCEIRA_NO_AMBITO_ESCOLAR_UM_ESTUDO_DE.pdf','5. Estrat&eacute;gias de alfabetiza&ccedil;&atilde;o financeira')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">6. Equil&iacute;brio financeiro na juventude <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/6_Educacao_financeira_um_estudo_de_caso_com_jovens_d.pdf','6. Equilíbrio financeiro na juventude')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">7. Endividamento e consumo consciente <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/7_EDUCA%C3%87%C3%83O+FINANCEIRA+A+FERRAMENTA+DE+INCLUS%C3%83O+NO+ENSINO+DE.pdf','7. Endividamento e consumo consciente')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">8. Educa&ccedil;&atilde;o financeira e impacto social <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/8_Politicas_publicas_de_educacao_financeira_do_proce.pdf','8. Educação financeira e impacto social')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">9. Educa&ccedil;&atilde;o financeira e construção do futuro <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/9_A_Educacao_Financeira_e_as_Metas_da_Agenda_2030_da.pdf','9. Educação financeira e construção do futuro')">Abrir</button></div></div>
+          <div class="pdf-item"><i class="fa-solid fa-file-pdf"></i><div class="pdf-info">10. Endividamento e caminhos para quitação <button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_estudos/10_TCC%20LICENCIATURA%20EM%20MATEM%C3%81TICA%20CES%202026.pdf','10. Endividamento e caminhos para quitação')">Abrir</button></div></div>
+          </div>
+        </section>
+
+      <section class="card">
+        <h2>PlanixFinance: Dificuldades encontradas e nossa acessibilidade a Sociedade. Veja um pouco sobre a história do site.</h2>
+        <p>Este espaço reúne documentos do projeto, apresentações e reflexões sobre dificuldades e acessibilidade do site.</p>
+        <p>Adicionaremos novas atualizações conforme o desenvolvimento do projeto.</p>
+        <ul style="margin-top: 1rem;">
+          <li><button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_projeto/Artigo_Projeto.pdf', 'Artigo: Gestão Financeira e Projeto')">Gestão Financeira e Artigo sobre o Projeto</button></li>
+          <li><button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_projeto/Projeto_Inicial_Apresentacao.pdf', 'Apresentação do Projeto')">Desafios e Objetivos para Conhecimento sobre Gestão Financeira</button></li>
+          <li><button class="btn-resource" onclick="openPdfModal('../src/assets/artigos_projeto/Banner_Projeto.pdf', 'Apresentação do Projeto')">Banner do Projeto PlanixFinance</button></li>
+        </ul>
+      </section>
+
+      <p style="text-align: center; margin-top: 2rem;">
+        <a href="../index.php" class="button new"><i class="fa-solid fa-arrow-left"></i> Voltar ao Painel</a>
+      </p>
+    </main>
+
+    <!-- Modal para Vídeos -->
+    <div id="videoModal" class="modal-overlay">
+      <div class="modal modal-video">
+        <button class="close-modal" onclick="closeVideoModal()">&times;</button>
+        <h2 id="videoTitle">V&iacute;deo Educativo</h2>
+        <iframe id="videoFrame" width="100%" height="400" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Modal para PDFs -->
+    <div id="pdfModal" class="modal-overlay">
+      <div class="modal modal-pdf">
+        <button class="close-modal" onclick="closePdfModal()">&times;</button>
+        <h2 id="pdfTitle">Documento PDF</h2>
+        <iframe id="pdfFrame" width="100%" height="500" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <!-- Modal para Dicas -->
+    <div id="dicasModal" class="modal-overlay">
+      <div class="modal modal-dicas">
+        <button class="close-modal" onclick="closeDicasModal()">&times;</button>
+        <h2>Dicas Práticas de Gestão Financeira</h2>
+        <div class="dicas-content">
+          <div class="dica-item">
+            <h3><i class="fa-solid fa-piggy-bank"></i> Reserva de Emergência</h3>
+            <p>Monte uma reserva de emergência equivalente a 3-6 meses de despesas. Isso ajuda a lidar com situações inesperadas sem comprometer suas outras metas.</p>
+          </div>
+          <div class="dica-item">
+            <h3><i class="fa-solid fa-chart-line"></i> Acompanhamento de Gastos</h3>
+            <p>Acompanhe seus gastos diariamente usando um aplicativo ou caderno. Saber aonde seu dinheiro vai é fundamental para controlar finanças.</p>
+          </div>
+          <div class="dica-item">
+            <h3><i class="fa-solid fa-target"></i> Metas SMART</h3>
+            <p>Defina metas SMART: Específicas, Mensuráveis, Atingíveis, Relevantes e Temporais. Objetivos claros são mais fáceis de alcançar.</p>
+          </div>
+          <div class="dica-item">
+            <h3><i class="fa-solid fa-hand-holding-heart"></i> Compras Conscientes</h3>
+            <p>Evite compras por impulso esperando 24 horas antes de decidir. Essa pequena pausa ajuda a separar necessidades de desejos.</p>
+          </div>
+          <div class="dica-item">
+            <h3><i class="fa-solid fa-percent"></i> Entenda o Juros</h3>
+            <p>Compreender como juros funcionam é essencial. Pequenas taxas podem crescer muito com o tempo. Sempre compare opções antes de contrair dívidas.</p>
+          </div>
+          <div class="dica-item">
+            <h3><i class="fa-solid fa-landmark"></i> Educação Financeira</h3>
+            <p>Invista tempo aprendendo sobre finanças. Conhecimento é a melhor ferramenta para tomar decisões sábias com seu dinheiro.</p>
+          </div>
+          <div class="dica-item">
+            <h3><i class="fa-solid fa-people-group"></i> Compartilhe Conhecimento</h3>
+            <p>Converse sobre finanças com amigos e familiares. Compartilhar experiências e dicas pode ajudar a todos a melhorar sua gestão financeira.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Funções para controlar modais de vídeos
+      function openVideoModal(videoId, title) {
+        const modal = document.getElementById('videoModal');
+        const frame = document.getElementById('videoFrame');
+        const videoTitle = document.getElementById('videoTitle');
+        frame.src = 'https://www.youtube.com/embed/' + videoId;
+        videoTitle.innerHTML = title || 'V&iacute;deo Educativo';
+        modal.classList.add('active');
+      }
+
+      function closeVideoModal() {
+        const modal = document.getElementById('videoModal');
+        const frame = document.getElementById('videoFrame');
+        const videoTitle = document.getElementById('videoTitle');
+        frame.src = '';
+        videoTitle.innerHTML = 'V&iacute;deo Educativo';
+        modal.classList.remove('active');
+      }
+
+      // Funções para controlar modais de PDFs
+      function openPdfModal(pdfFile, title) {
+        const modal = document.getElementById('pdfModal');
+        const frame = document.getElementById('pdfFrame');
+        const pdfTitle = document.getElementById('pdfTitle');
+        frame.src = pdfFile;
+        pdfTitle.textContent = title;
+        modal.classList.add('active');
+      }
+
+      function closePdfModal() {
+        const modal = document.getElementById('pdfModal');
+        const frame = document.getElementById('pdfFrame');
+        frame.src = '';
+        modal.classList.remove('active');
+      }
+
+      // Funções para controlar modal de dicas
+      function openDicasModal() {
+        const modal = document.getElementById('dicasModal');
+        modal.classList.add('active');
+      }
+
+      function closeDicasModal() {
+        const modal = document.getElementById('dicasModal');
+        modal.classList.remove('active');
+      }
+
+      // Fechar modal ao clicar no overlay
+      document.getElementById('videoModal').addEventListener('click', function(e) {
+        if (e.target === this) closeVideoModal();
+      });
+
+      document.getElementById('pdfModal').addEventListener('click', function(e) {
+        if (e.target === this) closePdfModal();
+      });
+
+      document.getElementById('dicasModal').addEventListener('click', function(e) {
+        if (e.target === this) closeDicasModal();
+      });
+    </script>
+  </body>
+</html>
