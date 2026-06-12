@@ -1,70 +1,131 @@
 # PlanixFinance
 
-Bem-Vindo ao nosso projeto, agradecemos o apoio, se possivel avaliar com a estrela para ajudar ainda mais nossa ideia.
+[![GitHub Repo stars](https://img.shields.io/github/stars/VitorRodrig15/PlanixFinance_Gestao_pessoal?style=social)](https://github.com/VitorRodrig15/PlanixFinance_Gestao_pessoal)
+[![Repo size](https://img.shields.io/github/repo-size/VitorRodrig15/PlanixFinance_Gestao_pessoal)](https://github.com/VitorRodrig15/PlanixFinance_Gestao_pessoal)
+[![Language](https://img.shields.io/github/languages/top/VitorRodrig15/PlanixFinance_Gestao_pessoal)](https://github.com/VitorRodrig15/PlanixFinance_Gestao_pessoal)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-Projeto de site de gestão financeira pessoal em PHP, SQL, HTML, CSS e JavaScript.
+## 🚀 Overview
 
-## Sobre o projeto
+**PlanixFinance** é um painel de gestão financeira pessoal com foco em controle local via XAMPP. Ele combina PHP, MySQL, JavaScript e uma interface moderna para ajudar a visualizar gastos, metas e parcelamentos de forma simples.
 
-O PlanixFinance é um painel financeiro completo para uso local com autenticação, controle de transações, metas financeiras, parcelamentos e limites de categoria. O projeto foi desenvolvido para ser executado em um ambiente local como XAMPP, com PHP, Apache e MySQL.
+## 📸 Galeria de Screenshots
 
-## Funcionalidades
+### Página Inicial - Dashboard
 
-- Autenticação de usuários:
-  - cadastro de nova conta
-  - login com senha criptografada
-  - recuperação de senha (fluxo não estando disponivel devido precisar de hospedagem para atribuir)
-- Controle de transações:
-  - entrada e saída de valores
-  - lançamentos de despesas e receitas
-  - edição e exclusão de transações
-  - histórico mensal de transações
-- Gestão de parcelamentos:
-  - cadastro de parcelamentos
-  - criação automática de parcelas no histórico
-  - exclusão de parcelamento com remoção das parcelas relacionadas
-- Gestão de objetivos financeiros:
-  - criação de metas com valor e prazo
-  - ativação de um objetivo ativo
-  - conclusão de objetivo com registro de data
-- Limites de categoria:
-  - definição de limite de gasto por categoria para monitoramento
-- Painel visual:
-  - cálculo de saldo anterior, entradas, saídas e saldo total
-  - resumo de indicadores financeiros
-  - notificações e alertas de objetivos urgentes
-- Conteúdo adicional:
-  - página de estudos (`pages/estudos.html`)
-  - recursos estáticos de CSS e JS em `src/css` e `src/js`
+![Página Inicial 1](Pagina_inicial1.png)
+*Dashboard com saldo total, entradas, saídas e resumo do mês*
 
-## Tecnologias utilizadas
+![Página Inicial 2](Pagina_inicial2.png)
+*Histórico de transações com filtro por mês e ações de edição/exclusão*
 
-- PHP 7.x/8.x
+![Página Inicial 3](Pagina_inicial3.png)
+*Painel de metas financeiras e indicadores de urgência*
+
+### Página de Estudos
+
+![Página de Estudos 1](pages/Pagina_estudos1.png)
+*Seção de artigos e recursos educacionais sobre gestão financeira*
+
+![Página de Estudos 2](pages/Pagina_estudos2.png)
+*Conteúdo de dicas e estratégias para melhorar finanças pessoais*
+
+![Página de Estudos 3](pages/Pagina_estudos3.png)
+*Materiais de suporte com links para vídeos e artigos externos*
+
+![Página do Projeto](pages/Pagina_projeto.png)
+*Informações sobre o desenvolvimento e equipe PlanixFinance*
+
+## ✨ Destaques
+
+- Login e cadastro seguro com senha hash
+- Controle de despesas e receitas
+- Histórico mensal de transações
+- Parcelamentos automáticos com geração de parcelas
+- Metas financeiras com ativação e conclusão
+- Limites por categoria para controle de gastos
+- Dashboard resumido com saldo, entradas e saídas
+- Conteúdo de estudos e ajuda financeira
+
+## 🧩 Funcionalidades principais
+
+### Autenticação
+- Cadastro de usuário
+- Login seguro com senha criptografada
+- Redirecionamento para painel após login
+
+### Transações
+- Registro de entradas e saídas
+- Edição e exclusão de lançamentos
+- Visualização de histórico por mês
+- Geração de alertas e insights financeiros
+
+### Parcelamentos
+- Cadastro de parcelamentos em série
+- Inclusão das parcelas automaticamente em `transacoes`
+- Exclusão de parcelamento com remoção de parcelas
+
+### Objetivos
+- Criação de metas financeiras com valor e prazo
+- Ativação do objetivo ativo para controle prioritário
+- Registro de conclusão de metas com data
+
+### Limites e indicadores
+- Definição de limites por categoria
+- Cálculo de saldo anterior, entradas, saídas e saldo total
+- Painel de inteligência com dados do mês atual
+
+## � Páginas do Projeto
+
+### 1. **Página Inicial (index.php)**
+A página principal após login que funciona como dashboard financeiro. Apresenta:
+- **Cards de resumo**: saldo total, entradas do mês, saídas do mês
+- **Navegação por mês**: permite visualizar dados de períodos anteriores
+- **Tabela de transações**: lista completa de lançamentos com opções de editar ou excluir
+- **Painel de alertas**: notificações sobre metas urgentes e objetivos concluídos
+- **Cards de insights**: resumo inteligente de gastos e metas em progresso
+
+### 2. **Página de Autenticação (pages/auth/)**
+- **login.php**: tela de acesso com validação de credenciais
+- **cadastro.php**: formulário para criação de nova conta
+- **esqueci_senha.php**: fluxo de recuperação de senha (requer hospedagem)
+- **perfil.php**: visualização e edição de dados do usuário
+- **logout.php**: encerramento de sessão
+
+### 3. **Página de Estudos (pages/estudos.html)**
+Página de educação financeira com:
+- **Artigos educacionais**: conteúdo sobre gestão pessoal e dicas práticas
+- **Seções temáticas**: organização por tópicos (economia, investimento, planejamento)
+- **Links externos**: referências a recursos adicionais e vídeos
+- **Design responsivo**: adaptado para mobile e desktop
+
+## �🛠 Tecnologias usadas
+
+- PHP 7.x / 8.x
 - MySQL / MariaDB
 - HTML5
 - CSS3
 - JavaScript
 - Font Awesome
 - Google Fonts
-- XAMPP para servidor local
+- XAMPP (Apache + MySQL)
 
-## Requisitos
+## ⚙️ Requisitos
 
 - XAMPP instalado no Windows
-- Apache e MySQL ativados no painel do XAMPP
+- Apache e MySQL ativos
 - PHP habilitado
-- Banco de dados local MySQL(as tables necessarias deixei como comentario em database.php)
+- Banco de dados local com suporte MySQL
 
-## Configuração do ambiente local
+## 🧱 Configuração local
 
-1. Copie a pasta do projeto para a pasta do XAMPP, por exemplo:
-   - `C:\xampp\htdocs\Site_final`
-2. Inicie o Apache e o MySQL no painel do XAMPP.
-3. Acesse o phpMyAdmin em `http://localhost/phpmyadmin`.
-4. Crie um banco de dados chamado `projeto_gestao`.
-5. Importe as tabelas necessárias usando o script SQL presente em `config/database.php`.
+1. Copie o projeto para `C:\xampp\htdocs\Site_final`
+2. Abra o painel do XAMPP e inicie o Apache e o MySQL
+3. Acesse `http://localhost/phpmyadmin`
+4. Crie o banco de dados `projeto_gestao`
+5. Importe as tabelas usando o script SQL no `config/database.php`
 
-### Estrutura de tabelas esperada
+### Tabelas necessárias
 
 - `usuarios`
 - `transacoes`
@@ -72,46 +133,56 @@ O PlanixFinance é um painel financeiro completo para uso local com autenticaç�
 - `limites`
 - `objetivos`
 
-> O arquivo `config/database.php` já contém o host padrão `localhost`, usuário `root` e senha vazia. Ajuste se necessário.
+> O arquivo `config/database.php` já usa `localhost`, `root` e senha vazia por padrão. Ajuste se estiver usando outro usuário.
 
-## Como rodar o projeto
+## ▶️ Como executar
 
-1. Abra o navegador e acesse: `http://localhost/Site_final/index.php`
-2. Faça cadastro de usuário em `pages/auth/cadastro.php`.
-3. Faça login para acessar o painel financeiro.
+1. Abra no navegador: `http://localhost/Site_final/index.php`
+2. Crie uma conta em `pages/auth/cadastro.php`
+3. Faça login e use o painel financeiro
 
-## Notas sobre publicação no GitHub
+## 📁 Estrutura de pastas
 
-- O GitHub aceita este projeto como repositório de código.
-- Como ele usa PHP e MySQL, o site não roda diretamente no GitHub Pages.
-- Publique o código no GitHub para versionamento e colaboração.
-- Para executar localmente, use o XAMPP com o banco de dados configurado.
-
-## Estrutura de pastas
-
-- `actions/` - scripts PHP que salvam, editam e excluem dados
+- `actions/` - ações em PHP para salvar, editar e excluir dados
 - `config/` - configuração do banco de dados
-- `pages/auth/` - páginas de login, cadastro, recuperação de senha e perfil
-- `src/css/` - estilos do site
-- `src/js/` - lógica do painel e interação do usuário
-- `src/assets/` - imagens, vídeos e conteúdos estáticos
+- `pages/auth/` - páginas de autenticação e perfil
+- `src/css/` - estilos do projeto
+- `src/js/` - lógica e interatividade do painel
+- `src/assets/` - imagens, vídeos e arquivos estáticos
 
-## Sugestão de commit inicial para GitHub
+## 📌 Observações importantes
 
-1. Adicione todos os arquivos:
-   - `git add .`
-2. Faça o commit:
-   - `git commit -m "Initial commit - PlanixFinance local dashboard"`
-3. Crie o repositório remoto no GitHub e envie os arquivos:
-   - `git remote add origin <URL_DO_REPOSITORIO>`
-   - `git push -u origin main`
+- O projeto exige backend PHP e banco de dados MySQL, então não roda no GitHub Pages.
+- Use o GitHub para versionar o código e compartilhar apenas o projeto.
+- Sempre mantenha o banco de dados local sincronizado ao clonar ou mover o projeto.
 
-## Observações
+## ✅ Publicação no GitHub
 
-- Mantenha o banco de dados local atualizado ao mover ou clonar o projeto.
-- Caso use outro usuário MySQL, atualize `config/database.php`.
-- Verifique os detalhes de autenticação e senha ao migrar o projeto.
+1. Inicie o Git no projeto (se ainda não estiver inicializado):
+   ```bash
+   git init
+   ```
+2. Adicione arquivos:
+   ```bash
+   git add .
+   ```
+3. Faça o commit:
+   ```bash
+   git commit -m "Initial commit - PlanixFinance"
+   ```
+4. Configure o repositório remoto:
+   ```bash
+   git remote add origin https://github.com/VitorRodrig15/PlanixFinance_Gestao_pessoal.git
+   ```
+5. Envie para o GitHub:
+   ```bash
+   git push -u origin master
+   ```
 
----
+## 📝 `.gitignore`
 
-Obrigado por usar o PlanixFinance!, nosso projeto pensado para a sociedade, ajudando a quem precisa e apoiando quem não conheçe sobre gestão pessoal.
+Recomenda-se ignorar arquivos de ambiente, exportações de banco de dados e pastas de IDE.
+
+## 💡 Observação final
+
+O PlanixFinance foi pensado para ajudar quem quer organizar melhor as finanças pessoais de forma prática, local e com visual moderno. Se quiser, posso adicionar também um `LICENSE` ou um guia de contribuições para o seu repositório.

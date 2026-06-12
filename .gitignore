@@ -1,0 +1,28 @@
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Dependências e build
+node_modules/
+vendor/
+
+# Arquivos de ambiente e segredo
+.env
+*.env
+
+# Banco de dados local e exportações
+*.sql
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+~*
