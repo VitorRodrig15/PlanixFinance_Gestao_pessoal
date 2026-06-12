@@ -99,7 +99,7 @@ Página de educação financeira com:
 - **Links externos**: referências a recursos adicionais e vídeos
 - **Design responsivo**: adaptado para mobile e desktop
 
-## �🛠 Tecnologias usadas
+## 🛠 Tecnologias usadas
 
 - PHP 7.x / 8.x
 - MySQL / MariaDB
@@ -152,6 +152,6 @@ Página de educação financeira com:
 
 ## 📌 Observações importantes
 
-- O projeto exige backend PHP e banco de dados MySQL, então não roda no GitHub Pages.
+- O projeto exige backend PHP e banco de dados MySQL.
 - Use o GitHub para versionar o código e compartilhar apenas o projeto.
 - Sempre mantenha o banco de dados local sincronizado ao clonar ou mover o projeto.
